@@ -6,6 +6,6 @@ import pytest
 
 
 @pytest.mark.parametrize("num, ans", [(4, 8)])
-def dummy_test(num, ans, debug=False):
+def test_dummy(num, ans, debug=False):
     """Dummy test for CICD"""
     assert ans == (num * 2)
